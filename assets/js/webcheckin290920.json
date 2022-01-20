@@ -1,0 +1,133 @@
+{
+	"result": [{
+		"gbr": "garudaindonesia.png",
+		"checkin": "https://checkin.si.amadeus.net/1ASIHSSCWEBGA/sscwga/checkin?ln=id",
+		"url": "https://www.garuda-indonesia.com",
+		"nama": "Garuda Indonesia"
+	}, {
+		"gbr": "airasiaindonesia.png",
+		"checkin": "https://checkin.airasia.com/?culture=en",
+		"url": "https://www.airasia.com",
+		"nama": "Air Asia"
+	}, {
+		"gbr": "batikair.png",
+		"checkin": "https://www.batikair.com/en/Checkin",
+		"url": "https://www.batikair.com",
+		"nama": "Batik Air"
+	}, {
+		"gbr": "citilink.png",
+		"checkin": "https://book.citilink.co.id/searchwebcheckin.aspx",
+		"url": "https://www.citilink.co.id",
+		"nama": "Citilink"
+	}, {
+		"gbr": "wingsair.png",
+		"checkin": "https://wci-prod.sabresonicweb.com/SSW2010/IWC0/checkin.html?execution=e2s1",
+		"url": "https://wci-prod.sabresonicweb.com",
+		"nama": "Wings Air"
+	}, {
+		"gbr": "evaair.png",
+		"checkin": "https://booking.evaair.com/flyeva/EVA/B2C/manage-your-trip/log_in.aspx?tab=2",
+		"url": "https://www.evaair.com",
+		"nama": "Eva Air"
+	}, {
+		"gbr": "malindo.png",
+		"checkin": "https://www.malindoair.com/malindoair-home/check-in-online",
+		"url": "https://www.malindoair.com",
+		"nama": "Malindo Air"
+	}, {
+		"gbr": "sriwijayaair.png",
+		"checkin": "https://webcheckin.sriwijayaair.co.id/webcheckin/",
+		"url": "https://webcheckin.sriwijayaair.co.id",
+		"nama": "Sriwijaya Air"
+	}, {
+		"gbr": "americanairlines.png",
+		"checkin": "https://www.aa.com/reservation/flightCheckInViewReservationsAccess.do?anchorLocation=DirectURL&title=check-in",
+		"url": "https://www.aa.com",
+		"nama": "American Airlines"
+	}, {
+		"gbr": "britishairways.png",
+		"checkin": "https://www.britishairways.com/travel/olcilandingpageauthreq/public/en_gb?eid=104511",
+		"url": "https://www.britishairways.com",
+		"nama": "British Airways"
+	}, {
+		"gbr": "chinaairlines.png",
+		"checkin": "https://calec.china-airlines.com/echeckin_t/echeckin_e.asp?country=uk&locale=en",
+		"url": "https://calec.china-airlines.com",
+		"nama": "China Airlines"
+	}, {
+		"gbr": "etihadairways.png",
+		"checkin": "https://www.etihad.com/en-id/before-you-fly/check-in-online/",
+		"url": "https://www.etihad.com",
+		"nama": "Etihad Airways"
+	}, {
+		"gbr": "fijiairways.png",
+		"checkin": "https://checkin.si.amadeus.net/static/PRD/FJ/#/identification",
+		"url": "https://checkin.si.amadeus.net",
+		"nama": "Fiji Airways"
+	}, {
+		"gbr": "hawaiianairlines.png",
+		"checkin": "https://www.hawaiianairlines.com/manage/check-in",
+		"url": "https://www.hawaiianairlines.com",
+		"nama": "Hawaiian Airlines"
+	}, {
+		"gbr": "hongkongairlines.png",
+		"checkin": "http://www.hongkongairlines.com/en_HK/flight/check-in",
+		"url": "http://www.hongkongairlines.com",
+		"nama": "Hong Kong Airlines"
+	}, {
+		"gbr": "japanairlines.png",
+		"checkin": "https://checkin.si.amadeus.net/static/PRD/JL/#/heckin?ghAirline=JL&ln=en",
+		"url": "https://checkin.si.amadeus.net",
+		"nama": "Japan Airlines"
+	}, {
+		"gbr": "kenyaairways.png",
+		"checkin": "https://www.kenya-airways.com/prepare-for-travel/manage-booking/online-check-in/en/",
+		"url": "https://www.kenya-airways.com",
+		"nama": "Kenya Airways"
+	}, {
+		"gbr": "qatarairways.png",
+		"checkin": "https://cki.qatarairways.com/cki-web/pages/search.xhtml",
+		"url": "https://cki.qatarairways.com",
+		"nama": "Qatar Airways"
+	}, {
+		"gbr": "emirates.png",
+		"checkin": "https://www.emirates.com/id/indonesian/manage-booking/online-check-in.aspx",
+		"url": "https://www.emirates.com",
+		"nama": "Emirates Airline"
+	}, {
+		"gbr": "thaiairways.png",
+		"checkin": "https://www.thaiairways.com/en_TH/Manage_My_Booking/My_Booking_tab_2.page?",
+		"url": "https://www.thaiairways.com",
+		"nama": "Thai Airways"
+	}, {
+		"gbr": "srilankanairlines.png",
+		"checkin": "https://www.srilankan.com/en_uk/uk#olci",
+		"url": "https://www.srilankan.com",
+		"nama": "SriLankan Airlines"
+	}, {
+		"gbr": "turkishairlines.png",
+		"checkin": "https://www.cleartrip.com/flight-booking/turkish-airlines-web-check-in.html",
+		"url": "https://www.turkishairlines.com",
+		"nama": "Turkish Airlines"
+	}, {
+		"gbr": "malaysiaairlines.png",
+		"checkin": "https://www.malaysiaairlines.com/my/en.html?utm_source=InvolveAsia&cid=aff|always-on|involveasia||||global||en|home&session_id=0fceba0455db48dea5f4e306ebc10726",
+		"url": "https://www.malaysiaairlines.com",
+		"nama": "Malaysia Airlines"
+	}, {
+		"gbr": "swissinternationalairlines.png",
+		"checkin": "https://www.swiss.com/ch/EN/profile/login",
+		"url": "https://www.swiss.com",
+		"nama": "Swiss International Air Lines"
+	}, {
+		"gbr": "elalisraelairlines.png",
+		"checkin": "https://www.elal.com/checkin/home/identification/c?language=eng&isup=false",
+		"url": "https://www.elal.com",
+		"nama": "El El Al Israel Airlines"
+	}, {
+		"gbr": "qantasairways.png",
+		"checkin": "http://www.qantas.com/id/en/travel-info/check-in.html#mobile-check-in-flights-within-australia-only",
+		"url": "https://www.qantas.com",
+		"nama": "Qantas Airways"
+	}]
+}

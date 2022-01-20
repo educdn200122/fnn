@@ -1,0 +1,49 @@
+{
+  "result":[
+    {
+      "code": "20000",
+      "product": "Token Listrik 20.000",
+      "sell_price": "20.000"
+    },
+    {
+      "code": "50000",
+      "product": "Token Listrik 50.000",
+      "sell_price": "50.000"
+    },
+    {
+      "code": "100000",
+      "product": "Token Listrik 100.000",
+      "sell_price": "100.000"
+    },
+    {
+      "code": "200000",
+      "product": "Token Listrik 200.000",
+      "sell_price": "200.000"
+    },
+    {
+      "code": "500000",
+      "product": "Token Listrik 500.000",
+      "sell_price": "500.000"
+    },
+    {
+      "code": "1000000",
+      "product": "Token Listrik 1.000.000",
+      "sell_price": "1.000.000"
+    },
+    {
+      "code": "5000000",
+      "product": "Token Listrik 5.000.000",
+      "sell_price": "5.000.000"
+    },
+    {
+      "code": "10000000",
+      "product": "Token Listrik 10.000.000",
+      "sell_price": "10.000.000"
+    },
+    {
+      "code": "50000000",
+      "product": "Token Listrik 50.000.000",
+      "sell_price": "50.000.000"
+    }
+  ]
+}
