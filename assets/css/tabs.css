@@ -1,0 +1,41 @@
+.tabs{
+  width: 100%;
+}
+.tab{
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+.tab div{
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  min-width: 50px;
+  border-bottom: 1px #ccc solid;
+  padding: 5px;
+  color: #2e6da4;
+  cursor: pointer;
+}
+.tab div.active{
+  border: 1px #ccc solid;
+  border-bottom: none;
+  color: #000;
+}
+.tabcontent {
+  display: none;
+  padding: 12px;
+  padding-top: 18px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent.active{
+  display: block;
+}
+.tabcontent label{
+  display: block;
+  font-weight: 400;
+}
+.tabcontent label input{
+  margin-bottom: 8px;
+  margin-right: 5px;
+}

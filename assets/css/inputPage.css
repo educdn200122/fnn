@@ -1,0 +1,219 @@
+#content{
+  min-width: calc(100% - 250px);
+}
+textarea{
+  height: 600px;
+}
+b{
+    display: block;
+}
+.bg-div2{
+    background-color: #fff;
+    margin-top: 0;
+    border: 1px #ccc solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.bg-div2 b{
+    display: block;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0 10px;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+div[role="application"]{
+  margin-bottom: 20px;
+}
+h4{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.bg-div2 label.rdo{
+    width: auto;
+    margin-right: 30px;
+    font-weight: 400;
+} 
+.btn-outline-primary{
+    background: #fff;
+    border-color: #0a4b78;
+    color: #0a4b78;
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+@media (min-width:769px){
+    .publish-div{
+      padding-left: 0;
+    }
+}
+.publish-list{
+    margin-top: 10px;
+    display: block;
+    color: #111;
+    font-size: 14px;
+}
+.publish-list:last-child{
+    margin-bottom: 10px;
+}
+.publish-list i{
+    color: #aaa;
+    margin-right: 5px;
+    width: 14px;
+}
+.publish-list b{
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.publish-list a{
+    text-decoration: underline;
+}
+.publish-footer{
+    border-top: 1px #ccc solid;
+    background-color: rgba(248, 249, 250, 0.75);
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: -10px;
+    width: calc(100% + 20px);
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.publish-footer a{
+    text-decoration: underline;
+    color: #b1272c !important;
+}
+.publish-footer button{
+    font-size: 12px;
+    margin-top: -5px;
+}
+.add-category{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: underline;
+}
+.tag-list span{
+    background-color: #347ab72e;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.tag-list span:before{
+    color: #fff;
+    content: "\00d7";
+    display: inline-block;
+    font: normal 12px/16px Roboto;
+    height: 16px;
+    text-align: center;
+    width: 16px;
+    background-color: #337ab7;
+    border-radius: 100%;
+    float: left;
+    margin-top: 2px;
+    margin-right: 4px;
+    margin-left: -2px;
+}
+a.choose-most{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.tags-input label{
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
+}
+.tags-input input{
+  width: calc(100% - 75px);
+  display: inline-block;
+}
+.tags-input button{
+  width: 65px;
+  margin-left: 5px;
+  display: inline-block;
+  background: #fff;
+  border-color: #0a4b78;
+  color: #0a4b78;
+}
+
+.upload-photo{
+  text-align: center;
+  background-color: #eee;
+  padding: 40px 15px;
+  color: #777;
+  cursor: pointer;
+}
+.upload-photo i{
+  font-size: 40px;
+  display: block;
+  cursor: pointer;
+}
+.upload-photo label{
+  font-weight: 400;
+  cursor: pointer;
+}
+.reset-photo img{
+  width: 100%;
+}
+input[type=file]{
+  display: none;
+}
+.publish-date{
+  margin-top: 4px;
+}
+.publish-date input, .publish-date select{
+  max-width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px #ccc solid;
+  border-radius: 4px;
+}
+.publish-date select{
+  max-width: unset;
+}
+.publish-date input[name="publish_date_year"]{
+  max-width: 50px;
+}
+.publish-date button{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.add-category-div{
+  margin-top: 10px;
+}
+.add-category-div button{
+  margin-top: 8px;
+  float: right;
+  margin-left: 5px;
+}
+.btn-primary-small{
+  width: 60px;
+  height: 32px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#tab1.tabcontent{
+  overflow: auto;
+  height: 212px;
+}

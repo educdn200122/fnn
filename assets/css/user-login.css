@@ -1,0 +1,871 @@
+.judul-signup{
+    margin-top: 85px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 14px;
+}
+.form-sign{
+    border: 1px #ccc solid;
+    padding: 30px 10px 30px 10px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15);
+    margin-bottom: 75px;
+}
+.inputgrup{
+  margin-bottom: 24px;
+  padding-left: 7px;
+}
+.inputgrup i{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+  .inputgrup small{
+    width: 100%;
+  }
+
+  .inputgrup input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px #ccc solid;
+    box-shadow: none;
+    padding: 4px 10px;
+    outline-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sosial-login{
+    height: 50px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 28px;
+  float: left;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19.5px;
+  width: 19.5px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f44136;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.kirimi{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.form-control{
+  font-size: 16px;
+  padding: 7px 12px;
+  height: 45px;
+}
+
+.kebijakan{
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+#loading-signup{
+  float: right;
+  margin-top: -10px;
+}
+
+#login_email, #login_phone{
+    width: 100%;
+    float: left;
+  }
+  .tablinks.active div{
+    width: 50%;
+    float: left;
+    border-bottom: 3px #d61f23 solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #f44136;
+    font-weight: 600;
+    background-color: #fff;
+  }
+  .tablinks div{
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #7f7f7f;
+    background-color: #f1f1f17a;
+  }
+  .tablinks div:hover{
+    color: #f44136;
+  }
+
+  .partitioned {
+    padding-left: 15px;
+    letter-spacing: 35px;
+    border: 0;
+    /*background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);*/
+    letter-spacing: 5px;
+    border: 1px #000 solid;
+    text-align: center;
+    background-position: bottom;
+    background-size: 45px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 260px;
+    min-width:220px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: none;
+    outline-style: none;
+  }
+
+  .divInner{
+    left: 0;
+    position: sticky;
+    text-align: center;
+  }
+
+  .divOuter{
+    width:100%; 
+    overflow:hidden;
+    margin-top: 7%;
+    margin-bottom: 24%;
+  }
+
+  .bg-login{
+    background: linear-gradient(188.68deg, rgba(215, 228, 241, 0.38) -39.33%, rgba(215, 228, 241, 0) 22.33%), linear-gradient(230.73deg, rgba(25, 118, 210, 0.8) 3.68%, rgba(89, 142, 194, 0) 85.74%), #004BA0;
+    background-image: url('../images/home/bg_login.png');
+    background-size: 110% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+  }
+  .bg-login div{
+        display: table-cell;
+    vertical-align: middle;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 15px 5%;
+  }
+  .bg-login div.pilih-email-hp{
+    background-color: #fff;
+    border-bottom: 1px #bbb solid;
+    padding: 0;
+  }
+  .bg-login div.pilih-email-hp a{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    border-bottom: none;
+    text-decoration: none;
+  }
+  .bg-login div.pilih-email-hp a.active{
+    color: #0a52a4;
+    border-bottom: 4px #0a52a4 solid;
+  }
+  .bg-login div img{
+    margin-right: 6px;
+    height: 26px;
+    float: none;
+  }
+  .bg-login div a{
+    float: left;
+  }
+  .bg-login div a img{
+        height: 16px;
+    margin-top: 5px;
+    position: absolute;
+  }
+  .bg-login div p{
+    width: 100%;
+    float: left;
+    margin-top: 4px;
+  }
+   .bg-login div p span{
+    /*color: #fff;*/
+  }
+  .tab-login{
+    position: absolute;
+    margin-top: -48px;
+    width: 100%;
+    float: left;
+  }
+  .nav-tabs{
+    border-bottom: none;
+  }
+  .nav-tabs li{
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .nav-tabs li a{
+    width: 84%;
+    margin-left: 8%;
+    display: inline-block;
+    color: #D8DCE4;
+    opacity: 0.8;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .nav-tabs li a.active{
+    color: #fff;
+    border-bottom: 4px #FFCA28 solid;
+  }
+  .hilang{
+    display: none;
+  }
+
+  .input-login{
+    border: 0.5px solid #D8DCE4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    float: left;
+    padding: 10px 14px;
+    background: #FFFFFF;
+    margin-bottom: 15px;
+    padding-top: 6px;
+  }
+  .input-login label{
+        font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #92A1AE;
+    width: 100%;
+    margin-bottom: 6px;
+  }
+  .input-login label label{
+    width: auto;
+    float: right;
+  }
+  .input-login label label input{
+    width: auto;
+    margin-top: 2px;
+    margin-right: 5px;
+  }
+  .input-login label span{
+    color: #a40a1a;
+    margin-left: 2px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 1px;
+  }
+  .input-login label div{
+    display: inline;
+    margin-left: 10px;
+    font-size: 9px;
+    color: #b80a1a;
+  }
+.input-login input{
+  width: 100%;
+  float: left;
+  border: none;
+  margin-top: -2px;
+  font-size: 15px;
+  outline-style: none;
+}
+.input-login select{
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.isi-form{
+  padding: 16px;
+}
+.tabcontent button{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    outline-style: none;
+    background-color: #0a52a4;
+    color: #fff;
+}
+.tabcontent div p{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.lupaklik{
+     color: #0a52a4 !important;
+    /* position: absolute; */
+    float: right;
+    padding: 0;
+    font-size: 14px;
+    width: 100%;
+    margin-top: -6px;
+    margin-right: 4px;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.lupaklik2{
+        color: #0a52a4 !important;
+    float: right;
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.more-koperasi{
+  float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.selfie{
+    width: 100%;
+    float: left;
+}
+.selfie img {
+    width: 50%;
+    float: left;
+}
+.camera-selfie{
+  float: left;
+  width: 100%;
+  height: 55vw;
+  border: 0.5px #ccc solid;
+  background-color: #fff;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 60px;
+}
+.camera-selfie i{
+  display: block;
+}
+.camera-selfie label{
+      font-size: 13px;
+    font-weight: 600;
+    color: #212529;
+    width: 100%;
+    float: left;
+}
+input[type="file"]{
+  display: none;
+}
+.input-login i{
+  position: absolute;
+  margin-top: 24px;
+  font-size: 22px;
+  right: 35px;
+}
+.new-ppob{
+  font-family: Lato !important;
+  font-style: normal !important;
+  background-color: #fafcfe; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2000; overflow-y: auto;
+  background-image: url('../images/home/mask.png');
+  background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+/*    padding: 15px 3%;*/
+}
+.head-ppob{
+      background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 75, 160, 0.08);
+    padding: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.head-ppob img{
+  width: 24px;
+  float: left;
+}
+.head-ppob a:nth-child(2) img{
+  width: 30px;
+  float: right;
+}
+.webcheckin-page{
+  width: 100%;
+  float: left;
+      padding: 15px 3%;
+}
+.webcheckin-page i{
+      position: absolute;
+    margin-top: 14px;
+    left: calc(3% + 15px);
+    font-size: 24px;
+    color: #4a5e68;
+}
+.webcheckin-page input{
+      border: 0.5px solid #D8DCE4;
+    width: 100%;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 50px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+.list-checkin div {
+    width: 100%;
+    float: left;
+    background: #fff;
+    margin-bottom: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 75, 160, 0.08);
+    /* border-bottom: 0.5px #ccc solid; */
+}
+.list-checkin div p {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.list-checkin div div:nth-child(1) {
+    padding: 20px;
+    padding-left: 0px;
+    width: 39%;
+    float: left;
+    box-shadow: none;
+    margin-bottom: 0;
+    text-align: center;
+}
+.list-checkin div div:nth-child(1) small{
+  font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    float: left;
+margin-top: 8px;
+padding: 0px 10px;
+}
+.list-checkin div div:nth-child(2) {
+    padding: 20px 0px;
+    width: 61%;
+    float: left;
+    box-shadow: none;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.list-checkin div img {
+width: 90%;
+float: none;
+/*float: left;*/
+}
+.list-checkin div a{
+  color: #004BA0;
+    background: #D7E4F1;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin-top: 6px;
+    float: left;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.list-checkin div a i{
+    position: inherit;
+    float: left;
+    font-size: 18px;
+    margin-right: 4px;
+    margin-top: 1px;
+    color: #004ba0;
+}
+#koperasi_pilih{
+  display: none;
+}
+.pengguna{
+      margin-top: 4px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.pengguna label{
+  font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    float: left;
+    width: auto;
+    margin-right: 15px;
+}
+.pengguna label input{
+  float: left;
+    text-align: left;
+    margin-top: 0px;
+    left: 0;
+    width: auto;
+    margin-right: 5px;
+}
+.kopera{
+  display: none;
+}
+.perintah-transfer{
+  font-size: 14px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  float: left;
+  width: 100%;
+}
+.kode-komunitas{
+  width: 100%;
+  float: left;
+  background: #fff;
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px rgba(0, 75, 160, 0.08);
+  padding: 20px;
+}
+.kode-komunitas small{
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  width: 65%;
+  line-height: 1.3;
+}
+.kode-komunitas input{
+      padding: 10px;
+    margin-bottom: 0;
+    width: 64%;
+    float: left;
+}
+.kode-komunitas button{
+     width: 32%;
+    float: left;
+    margin: 0;
+    margin-left: 4%;
+}
+.link-bawah{
+  width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #0a52a4;
+    text-decoration: none;
+}
+#loginmail_loading, #daftarmail_loading, #verifikasimail_loading, #lupamail_loading{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding-top: 45vh;
+  font-size: 45px;
+}
+#loginmail_loading i, #loginmail_loading i, #daftarmail_loading i, #verifikasimail_loading i, #lupamail_loading i{
+  font-size: 45px;
+}
+#loginmail_loading p, #loginmail_loading p, #daftarmail_loading p, #verifikasimail_loading p, #lupamail_loading p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.popup-ppob{
+  top: 0;
+  font-size: 14px;
+}
+.popup-ppob div div{
+  margin-left: 4%;
+    float: left;
+    width: 92%;
+}
+.popup-ppob p b{
+  font-size: 15px;
+  color: #000;
+}
+.tabcontent div p.perintah-transfer{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*** Penambahan login via no_hp ***/
+.mail-login{
+  display: none;
+}
+
+.head-daftar,.body-daftar{
+    width: 100%;
+    float: left;
+  }
+  .head-daftar{
+      background-color: #0a52a4;
+      background-size: 140% 190%;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 13pt;
+      text-align: center;
+  }
+  .head-daftar a{
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .head-daftar img{
+    margin-left: calc(50% - 15px);
+    margin-right: calc(50% - 15px);
+    margin-bottom: 3px;
+    float: left;
+    width: 30px;
+    margin-top: -10px;
+  }
+  .head-daftar a img{
+    width: auto;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+  }
+  .body-daftar{
+    max-width: 400px;
+  }
+  @media only screen and (min-width: 400px) {
+  .body-daftar{
+    max-width: 400px;
+    margin-left: calc(50% - 200px);
+  }
+  }
+  .input-login{
+    background-color: transparent;
+    border: none;
+    margin-top: -20px;
+    float: left;
+    margin-bottom: 23px;
+    padding: 10px 30px;
+  }
+  .input-login label{
+    color: #000;
+    font-size: 9pt;
+  }
+  .input-login input{
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: 0.5px #999 solid;
+  }
+  .input-login textarea{
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: 0.5px #999 solid;
+    width: 100%;
+    margin-bottom: -8px;
+  }
+  .input-login p{
+    float: left;
+    background-color: #d9dbdd;
+    color: #053265;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .input-login i {
+    margin-top: 34px;
+    right: 30px;
+    font-size: 16pt;
+    color: #444;
+  }
+  .input-login select{
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: 0.5px #999 solid;
+    background-color: #fff;
+  }
+  .pengguna label{
+    width: 100%;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-size: 9pt;
+    width: calc(100% - 20px);
+  }
+  .pengguna label input{
+    display: none;
+  }
+  input:checked + span{
+    background-color: #0a52a4 !important;
+    border: 3px #0a52a4 solid !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: -21px !important;
+  }
+  .pengguna label span{
+    float: left;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px #000 solid;
+    margin-left: -20px;
+    margin-top: 2px;
+    color: #fff;
+    font-size: 10px;
+  }
+  .input-login.nama label{
+    width: 49%;
+    float: left;
+  }
+  .input-login.nama input{
+    width: 49%;
+  }
+  #daftarmail_btn{
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      float: left;
+      border: none;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      font-size: 16px;
+      padding: 12px;
+      border-radius: 24px;
+      background-color: #ed1c24;
+      color: #fff;
+  }
+  .selfie{
+    margin-top: -30px;
+    padding: 0 14px;
+  }
+
+  .camera-selfie{
+    width: calc(100% - 28px);
+    margin-left: 14px;
+    margin-bottom: 20px;
+  }
+  .camera-selfie label{
+    padding: 0 10px;
+  }
+  .bendera{
+    float: left;
+      width: calc(100% - 28px);
+      margin-left: 14px;
+      margin-bottom: 24px;
+      padding: 7px 14px;
+      font-size: 10pt;
+      background-color: #0a52a4;
+      color: #fff;
+  }
+  .ang, .ang-kop, .ang-ret, .kop, .ret{
+    display: none;
+  }
+  .list-checkin div p{
+    font-size: 14px;
+  }
+  #daftarmail_loading{
+    font-size: 35px;
+  }
+  h4, p{
+    padding: 14px 30px;
+  }
+  h4{
+    padding-bottom: 0;
+    font-size: 20pt;
+    margin-bottom: -10px;
+  }
+  p{
+    width: 100%;
+    float: left;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  p img{
+    height: 80px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  #daftarmail_loading p{
+    width: 100%;
+  }
+  @font-face{
+    font-family:"Lato";
+    src:url(assets/fonts/Lato-Regular.ttf);
+    src:url(assets/fonts/Lato-Regular.ttf) format("truetype");
+  }
+  @font-face{
+    font-family:"Lato Black";
+    src:url(assets/fonts/Lato-Black.ttf);
+    src:url(assets/fonts/Lato-Black.ttf) format("truetype");
+  }
